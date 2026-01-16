@@ -1,0 +1,17 @@
+{
+  "type": "plugin-documentation",
+  "name": "VidSEO — Video LLM interpretability",
+  "purpose": "canonical-definition",
+  "scope": "interpretability-layer",
+  "primary_language": "en",
+  "canonical_surface": "https://vidseo.dev",
+  "implementation": "https://wordpress.org/plugins/vidseo/",
+  "repository": "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+  "non_goals": [
+    "ai-generation",
+    "summarization",
+    "fact-invention",
+    "ranking-guarantees",
+    "citation-guarantees"
+  ]
+}
