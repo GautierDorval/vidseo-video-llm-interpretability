@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# vidseo.dev is a machine-first reference surface.
+# Content is intended to be indexed and read by crawlers and language models.
