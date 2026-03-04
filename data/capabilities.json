@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-04",
+  "product": "VidSEO",
+  "capabilities": [
+    {
+      "id": "youtube-vimeo-embed",
+      "classification": "supported",
+      "source": "https://wordpress.org/plugins/vidseo/",
+      "en_label": "Supported video embeds",
+      "fr_label": "Intégrations vidéo prises en charge",
+      "en_description": "Public plugin description states support for YouTube and Vimeo embeds.",
+      "fr_description": "La description publique du plugin indique une prise en charge des intégrations YouTube et Vimeo."
+    },
+    {
+      "id": "youtube-subtitles-retrieval",
+      "classification": "supported",
+      "source": "https://wordpress.org/plugins/vidseo/",
+      "en_label": "Existing YouTube subtitles retrieval",
+      "fr_label": "Récupération de sous-titres YouTube existants",
+      "en_description": "Existing YouTube subtitles can be retrieved automatically when available.",
+      "fr_description": "Les sous-titres YouTube existants peuvent être récupérés automatiquement lorsqu’ils sont disponibles."
+    },
+    {
+      "id": "manual-transcript-entry",
+      "classification": "supported",
+      "source": "https://wordpress.org/plugins/vidseo/",
+      "en_label": "Manual transcript entry",
+      "fr_label": "Ajout manuel de transcription",
+      "en_description": "Transcripts can be provided manually when automatic subtitle retrieval is unavailable or unsuitable.",
+      "fr_description": "Les transcriptions peuvent être fournies manuellement lorsque la récupération automatique n’est pas disponible ou ne convient pas."
+    },
+    {
+      "id": "native-html-output",
+      "classification": "supported",
+      "source": "https://wordpress.org/plugins/vidseo/",
+      "en_label": "Native HTML transcript output",
+      "fr_label": "Sortie de transcription en HTML natif",
+      "en_description": "Transcript text is intended to render as standard HTML directly within page content.",
+      "fr_description": "Le texte de transcription est destiné à être rendu comme HTML standard directement dans le contenu de la page."
+    },
+    {
+      "id": "structured-transcript-html",
+      "classification": "supported-pro",
+      "source": "https://wordpress.org/plugins/vidseo/",
+      "en_label": "Structured transcript formatting",
+      "fr_label": "Mise en forme structurée de la transcription",
+      "en_description": "Headings, paragraphs, and links inside transcripts are publicly described for the PRO offer.",
+      "fr_description": "L’usage de titres, paragraphes et liens dans les transcriptions est décrit publiquement pour l’offre PRO."
+    },
+    {
+      "id": "visually-hidden-machine-readable",
+      "classification": "supported",
+      "source": "https://wordpress.org/plugins/vidseo/",
+      "en_label": "Visually hidden while present in source",
+      "fr_label": "Masquée visuellement tout en restant dans le source",
+      "en_description": "The public description states that transcript text can remain in the HTML source even when hidden visually.",
+      "fr_description": "La description publique indique que le texte de transcription peut rester dans le code HTML même lorsqu’il est masqué visuellement."
+    }
+  ],
+  "nonGoals": [
+    "ai-transcription",
+    "summarization",
+    "rewriting",
+    "fact-checking",
+    "ranking-guarantees",
+    "citation-guarantees",
+    "authority-certification",
+    "model-governance"
+  ]
+}

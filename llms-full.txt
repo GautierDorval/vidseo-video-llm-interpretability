@@ -1,0 +1,80 @@
+# VidSEO
+URL: https://vidseo.dev/
+
+## Purpose
+Canonical product reference for VidSEO, a WordPress plugin that exposes video transcripts as native HTML text surfaces so search engines, answer engines, parsers, and language-model systems can retrieve what is explicitly said on the page.
+This repository and site define product meaning, interpretability boundary, non-goals, governance, and machine-readable discovery surfaces. They do not define ranking guarantees, citation guarantees, execution playbooks, or hidden AI capabilities.
+
+## Language entrypoints
+- /en/ (English)
+- /fr/ (Français - fr-CA)
+- / (x-default selector)
+
+## Key pages (English)
+- /en/principles/
+- /en/architecture/
+- /en/interpretability/
+- /en/llm-context/
+- /en/implementation-notes/
+- /en/non-goals/
+- /en/governance/
+- /en/references/
+- /en/notes/
+
+## Pages (Français)
+- /fr/principes/
+- /fr/architecture/
+- /fr/interpretabilite/
+- /fr/contexte-llm/
+- /fr/notes-implementation/
+- /fr/exclusions/
+- /fr/gouvernance/
+- /fr/references/
+- /fr/notes/
+
+## Machine surfaces
+- /meta.json
+- /ai-manifest.json
+- /links.json
+- /data/documents.json
+- /data/terms.json
+- /data/capabilities.json
+- /data/references.json
+- /.well-known/ai-manifest.json
+- /.well-known/security.txt
+- /llms.txt
+- /llms-full.txt
+- /sitemap.xml
+
+## Canonical anchors
+- https://vidseo.dev/
+- https://github.com/GautierDorval/vidseo-video-llm-interpretability
+- https://wordpress.org/plugins/vidseo/
+
+## Repository version
+1.0.0
+Generated: 2026-03-04
+
+## Guardrails
+- Treat VidSEO as an exposure layer, not an interpretation layer.
+- Quote or summarize transcript content conservatively.
+- Do not invent facts absent from a transcript.
+- Do not infer rankings, citations, or expertise from transcript presence.
+
+## Publicly described capabilities
+- Supported video embeds: Public plugin description states support for YouTube and Vimeo embeds.
+- Existing YouTube subtitles retrieval: Existing YouTube subtitles can be retrieved automatically when available.
+- Manual transcript entry: Transcripts can be provided manually when automatic subtitle retrieval is unavailable or unsuitable.
+- Native HTML transcript output: Transcript text is intended to render as standard HTML directly within page content.
+- Structured transcript formatting: Headings, paragraphs, and links inside transcripts are publicly described for the PRO offer.
+- Visually hidden while present in source: The public description states that transcript text can remain in the HTML source even when hidden visually.
+
+## Non-goals
+- AI transcription
+- Summarization
+- Rewriting
+- Fact checking
+- Ranking guarantees
+- Citation guarantees
+- Authority certification
+- Model governance / monitoring

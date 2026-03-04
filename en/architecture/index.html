@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Architecture | VidSEO</title>
+  <meta name="description" content="Conceptual architecture for VidSEO: product, exposure, machine-surface, and governance layers.">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://vidseo.dev/en/architecture/">
+  <link rel="alternate" hreflang="en" href="https://vidseo.dev/en/architecture/">
+  <link rel="alternate" hreflang="fr-CA" href="https://vidseo.dev/fr/architecture/">
+  <link rel="alternate" hreflang="x-default" href="https://vidseo.dev/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Architecture | VidSEO">
+  <meta property="og:description" content="Conceptual architecture for VidSEO: product, exposure, machine-surface, and governance layers.">
+  <meta property="og:url" content="https://vidseo.dev/en/architecture/">
+  <meta property="og:site_name" content="VidSEO">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Architecture", "description": "Conceptual architecture for VidSEO: product, exposure, machine-surface, and governance layers.", "inLanguage": "en", "url": "https://vidseo.dev/en/architecture/", "identifier": "VIDSEO-DOC-ARCHITECTURE", "isPartOf": "https://vidseo.dev/", "about": {"@type": "SoftwareApplication", "name": "VidSEO", "url": "https://vidseo.dev/", "applicationCategory": "BusinessApplication", "operatingSystem": "WordPress"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-wrap">
+      <div class="brand-block">
+        <a class="brand" href="../../index.html">VidSEO</a>
+        <p class="eyebrow">Canonical product reference</p>
+      </div>
+      <div class="header-actions">
+        <a href="../index.html">EN</a>
+        <a href="../../fr/index.html">FR</a>
+        <a class="language-switch" href="../../fr/architecture/index.html">Français</a>
+      </div>
+    </div>
+    <nav class="section-nav" aria-label="Documents">
+      <div class="wrap nav-scroll">
+        <a href="../index.html">VidSEO</a>
+<a href="../principles/index.html">Principles</a>
+<a href="index.html" aria-current="page">Architecture</a>
+<a href="../interpretability/index.html">Interpretability</a>
+<a href="../llm-context/index.html">LLM context</a>
+<a href="../implementation-notes/index.html">Implementation notes</a>
+<a href="../non-goals/index.html">Non-goals</a>
+<a href="../governance/index.html">Governance</a>
+<a href="../references/index.html">References</a>
+<a href="../notes/index.html">Notes and provenance</a>
+      </div>
+    </nav>
+  </header>
+  <main id="content" class="wrap page-shell">
+    <article class="content-card">
+      <p class="status-line">informative Doc ID: `VIDSEO-DOC-ARCHITECTURE` · Reference 1.0.0 · non-executable</p>
+      <h1>Architecture</h1>
+      <p class="lead">Conceptual architecture for VidSEO: product, exposure, machine-surface, and governance layers.</p>
+      <p>VidSEO has two architectures that matter:</p>
+
+<ol>
+<li>the <strong>product architecture</strong> that exposes transcripts on a WordPress page,</li>
+<li>the <strong>reference architecture</strong> that defines how the product is described and discovered.</li>
+</ol>
+
+<h2>Layer 1. Product layer</h2>
+
+<p>Publicly described capabilities indicate that VidSEO can:</p>
+
+<ul>
+<li>embed supported video sources,</li>
+<li>associate a transcript with a given video,</li>
+<li>render the transcript as HTML on the page,</li>
+<li>let the transcript remain close to the video context.</li>
+</ul>
+
+<p>This is the operational product layer.</p>
+
+<h2>Layer 2. Exposure layer</h2>
+
+<p>The critical design claim is not “video SEO magic”.<br />
+It is <strong>text exposure</strong>.</p>
+
+<p>The transcript becomes a first-class surface inside the DOM rather than an inaccessible media-only payload. This is the layer that matters for crawlers, answer engines, and retrieval-based systems.</p>
+
+<h2>Layer 3. Machine-surface layer</h2>
+
+<p>This repository adds a second exposure system around the product itself:</p>
+
+<ul>
+<li><code>meta.json</code></li>
+<li><code>ai-manifest.json</code></li>
+<li><code>links.json</code></li>
+<li><code>llms.txt</code></li>
+<li><code>data/documents.json</code></li>
+<li><code>data/terms.json</code></li>
+<li><code>data/capabilities.json</code></li>
+</ul>
+
+<p>Together, these files reduce ambiguity about product meaning, scope, and authority.</p>
+
+<h2>Layer 4. Governance layer</h2>
+
+<p>Meaning without governance drifts.<br />
+Governance without machine surfaces stays implicit.</p>
+
+<p>The governance layer therefore includes:</p>
+
+<ul>
+<li>version tracking in <code>VERSION</code>,</li>
+<li>release history in <code>CHANGELOG.md</code>,</li>
+<li>stable terminology in <code>TERMS.md</code>,</li>
+<li>maintainership in <code>CODEOWNERS</code>,</li>
+<li>contribution rules in <code>CONTRIBUTING.md</code>,</li>
+<li>consistency checks in <code>scripts/verify_consistency.py</code>,</li>
+<li>CI enforcement in <code>.github/workflows/consistency.yml</code>.</li>
+</ul>
+
+<h2>Why this architecture matters</h2>
+
+<p>A plugin can be useful while still being poorly interpreted by machines.<br />
+A repository can be elegant while still being semantically unstable.</p>
+
+<p>This architecture is designed to avoid both failures:</p>
+
+<ul>
+<li>the product exposes video meaning as text,</li>
+<li>the repository exposes product meaning as governed reference data.</li>
+</ul>
+
+    </article>
+    <aside class="side-card">
+      <h2>Canonical surfaces</h2>
+      <ul>
+        <li><a href="https://vidseo.dev/">vidseo.dev</a></li>
+        <li><a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">GitHub repository</a></li>
+        <li><a href="https://wordpress.org/plugins/vidseo/">WordPress plugin page</a></li>
+      </ul>
+      <h2>Machine surfaces</h2>
+      <ul>
+        <li><a href="../../meta.json">meta.json</a></li>
+        <li><a href="../../ai-manifest.json">ai-manifest.json</a></li>
+        <li><a href="../../data/documents.json">data/documents.json</a></li>
+        <li><a href="../../data/terms.json">data/terms.json</a></li>
+        <li><a href="../../llms.txt">llms.txt</a></li>
+        <li><a href="../../sitemap.xml">sitemap.xml</a></li>
+      </ul>
+      <h2>Language selector</h2>
+      <p><a href="../../index.html">/</a></p>
+      <p class="small">VidSEO exposes transcripts. It does not generate content.</p>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-wrap">
+      <p>VidSEO exposes transcripts. It does not generate content.</p>
+      <p>Version 1.0.0 · 2026-03-04</p>
+    </div>
+  </footer>
+</body>
+</html>

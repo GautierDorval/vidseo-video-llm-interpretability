@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "VidSEO",
+      "url": "https://vidseo.dev/",
+      "inLanguage": [
+        "en",
+        "fr-CA"
+      ],
+      "sameAs": [
+        "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+        "https://wordpress.org/plugins/vidseo/"
+      ]
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "VidSEO",
+      "url": "https://vidseo.dev/",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "WordPress",
+      "description": "VidSEO exposes video transcripts as native HTML text surfaces.",
+      "sameAs": [
+        "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+        "https://wordpress.org/plugins/vidseo/"
+      ],
+      "featureList": [
+        "Supported video embeds",
+        "Existing YouTube subtitles retrieval",
+        "Manual transcript entry",
+        "Native HTML transcript output",
+        "Structured transcript formatting",
+        "Visually hidden while present in source"
+      ]
+    }
+  ]
+}

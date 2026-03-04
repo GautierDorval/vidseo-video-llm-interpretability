@@ -1,28 +1,37 @@
 # Non-goals
 
-VidSEO has a deliberately limited scope.
+VidSEO has a deliberately narrow scope.
 
-The plugin is designed to expose video transcripts as readable text surfaces.
-It is not intended to perform interpretation, transformation, or evaluation of content.
+## VidSEO is not
 
-## What VidSEO is NOT
+- an AI transcription engine,
+- a summarization engine,
+- a rewrite engine,
+- a fact-checking engine,
+- an authority certification layer,
+- a ranking guarantee system,
+- a citation guarantee system,
+- a model governance or monitoring product,
+- a replacement for editorial quality control.
 
-VidSEO is not an AI system.
-It does not generate, rewrite, summarize, or enhance content.
+## Why explicit non-goals matter
 
-VidSEO does not infer missing information.
-It does not complete facts, speculate on intent, or extrapolate meaning beyond the provided transcript.
+Repositories drift when readers fill in missing claims.
 
-VidSEO is not a ranking or citation optimization tool.
-It does not guarantee visibility, ranking, inclusion, or citation by search engines or language models.
+In the VidSEO case, the most common risky drift patterns are:
 
-VidSEO does not validate accuracy, expertise, or authority.
-The presence of a transcript does not imply correctness, certification, or endorsement.
+- assuming “LLM” means VidSEO interprets videos with AI,
+- assuming “SEO” means VidSEO guarantees ranking improvements,
+- assuming “machine-readable” means the content has been validated,
+- assuming transcript presence proves expertise or trustworthiness.
 
-VidSEO does not monitor, analyze, or influence model behavior.
-It only exposes content in a readable form.
+Each of those conclusions is outside product scope.
 
-## Interpretation constraint
+## Safe claim boundary
 
-VidSEO should be interpreted strictly as an **exposure layer**.
-Any interpretation, summarization, or reasoning applied to the content occurs outside the plugin’s scope and responsibility.
+The safe claim is narrower:
+
+> VidSEO makes video transcript text available as native HTML on the page so machines can read what is explicitly said.
+
+That claim is strong enough.  
+It does not need inflation.

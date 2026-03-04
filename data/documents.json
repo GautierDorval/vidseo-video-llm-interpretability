@@ -1,0 +1,210 @@
+{
+  "version": "1.0.0",
+  "generated": "2026-03-04",
+  "documents": [
+    {
+      "id": "VIDSEO-DOC-ROOT",
+      "slug": "root",
+      "classification": "informative",
+      "status": "canonical",
+      "markdownSource": "/index.html",
+      "variants": {
+        "x-default": {
+          "url": "/",
+          "title": "VidSEO",
+          "description": "Language selector and machine-first entrypoint."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-HOME",
+      "slug": "home",
+      "classification": "informative",
+      "status": "canonical",
+      "markdownSource": "/index.md",
+      "variants": {
+        "en": {
+          "url": "/en/",
+          "title": "VidSEO",
+          "description": "Canonical product reference for VidSEO, a WordPress plugin that exposes video transcripts as native HTML text surfaces."
+        },
+        "fr-CA": {
+          "url": "/fr/",
+          "title": "VidSEO",
+          "description": "Référence canonique du produit VidSEO, un plugin WordPress qui expose les transcriptions vidéo comme surfaces texte HTML natives."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-PRINCIPLES",
+      "slug": "principles",
+      "classification": "normative",
+      "status": "canonical",
+      "markdownSource": "/principles.md",
+      "variants": {
+        "en": {
+          "url": "/en/principles/",
+          "title": "Principles",
+          "description": "AI-first, SEO-first, mobile-first, and governance-first principles for VidSEO."
+        },
+        "fr-CA": {
+          "url": "/fr/principes/",
+          "title": "Principes",
+          "description": "Principes Ai-first, SEO-first, mobile-first et gouvernance-first pour VidSEO."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-ARCHITECTURE",
+      "slug": "architecture",
+      "classification": "informative",
+      "status": "canonical",
+      "markdownSource": "/architecture.md",
+      "variants": {
+        "en": {
+          "url": "/en/architecture/",
+          "title": "Architecture",
+          "description": "Conceptual architecture for VidSEO: product, exposure, machine-surface, and governance layers."
+        },
+        "fr-CA": {
+          "url": "/fr/architecture/",
+          "title": "Architecture",
+          "description": "Architecture conceptuelle de VidSEO : couches produit, exposition, surfaces machine et gouvernance."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-INTERPRETABILITY",
+      "slug": "interpretability",
+      "classification": "normative",
+      "status": "canonical",
+      "markdownSource": "/interpretability.md",
+      "variants": {
+        "en": {
+          "url": "/en/interpretability/",
+          "title": "Interpretability",
+          "description": "Why video needs an explicit text surface and how VidSEO reduces interpretive guessing."
+        },
+        "fr-CA": {
+          "url": "/fr/interpretabilite/",
+          "title": "Interprétabilité",
+          "description": "Pourquoi la vidéo a besoin d’une surface texte explicite et comment VidSEO réduit la devinette interprétative."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-LLM-CONTEXT",
+      "slug": "llm-context",
+      "classification": "normative",
+      "status": "canonical",
+      "markdownSource": "/llm-context.md",
+      "variants": {
+        "en": {
+          "url": "/en/llm-context/",
+          "title": "LLM context",
+          "description": "How language models and answer engines should interpret VidSEO and the transcript surfaces it exposes."
+        },
+        "fr-CA": {
+          "url": "/fr/contexte-llm/",
+          "title": "Contexte LLM",
+          "description": "Comment les modèles de langage et les moteurs de réponse doivent interpréter VidSEO et les surfaces de transcription qu’il expose."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-IMPLEMENTATION",
+      "slug": "implementation-notes",
+      "classification": "informative",
+      "status": "canonical",
+      "markdownSource": "/implementation-notes.md",
+      "variants": {
+        "en": {
+          "url": "/en/implementation-notes/",
+          "title": "Implementation notes",
+          "description": "Public implementation-facing notes about what VidSEO supports and how transcript exposure is expected to work."
+        },
+        "fr-CA": {
+          "url": "/fr/notes-implementation/",
+          "title": "Notes d’implémentation",
+          "description": "Notes publiques orientées implémentation sur ce que VidSEO prend en charge et sur la manière dont l’exposition des transcriptions est censée fonctionner."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-NON-GOALS",
+      "slug": "non-goals",
+      "classification": "normative",
+      "status": "canonical",
+      "markdownSource": "/non-goals.md",
+      "variants": {
+        "en": {
+          "url": "/en/non-goals/",
+          "title": "Non-goals",
+          "description": "Explicit exclusions that keep VidSEO from being misread as an AI generation or ranking-guarantee system."
+        },
+        "fr-CA": {
+          "url": "/fr/exclusions/",
+          "title": "Exclusions",
+          "description": "Exclusions explicites qui empêchent de lire VidSEO comme un système de génération IA ou de garantie de classement."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-GOVERNANCE",
+      "slug": "governance",
+      "classification": "normative",
+      "status": "canonical",
+      "markdownSource": "/GOVERNANCE.md",
+      "variants": {
+        "en": {
+          "url": "/en/governance/",
+          "title": "Governance",
+          "description": "Versioning, change control, review policy, and consistency rules for the VidSEO reference repository."
+        },
+        "fr-CA": {
+          "url": "/fr/gouvernance/",
+          "title": "Gouvernance",
+          "description": "Versionnement, contrôle des changements, politique de revue et règles de cohérence du dépôt de référence VidSEO."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-REFERENCES",
+      "slug": "references",
+      "classification": "informative",
+      "status": "canonical",
+      "markdownSource": "/references.md",
+      "variants": {
+        "en": {
+          "url": "/en/references/",
+          "title": "References",
+          "description": "Normative, implementation, and contextual references for VidSEO."
+        },
+        "fr-CA": {
+          "url": "/fr/references/",
+          "title": "Références",
+          "description": "Références normatives, d’implémentation et contextuelles pour VidSEO."
+        }
+      }
+    },
+    {
+      "id": "VIDSEO-DOC-NOTES",
+      "slug": "notes",
+      "classification": "informative",
+      "status": "canonical",
+      "markdownSource": "/context-and-provenance.md",
+      "variants": {
+        "en": {
+          "url": "/en/notes/",
+          "title": "Notes and provenance",
+          "description": "Context, provenance, and rationale for turning the VidSEO repository into a governed canonical surface."
+        },
+        "fr-CA": {
+          "url": "/fr/notes/",
+          "title": "Notes et provenance",
+          "description": "Contexte, provenance et justification de la transformation du dépôt VidSEO en surface canonique gouvernée."
+        }
+      }
+    }
+  ]
+}

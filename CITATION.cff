@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "VidSEO: Canonical product reference"
+message: "If you use this repository, please cite it as software/documentation."
+type: software
+version: "1.0.0"
+date-released: "2026-03-04"
+authors:
+  - family-names: "Dorval"
+    given-names: "Gautier"
+repository-code: "https://github.com/GautierDorval/vidseo-video-llm-interpretability"
+url: "https://github.com/GautierDorval/vidseo-video-llm-interpretability"
+license: "NOASSERTION"

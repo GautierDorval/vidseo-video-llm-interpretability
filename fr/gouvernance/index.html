@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Gouvernance | VidSEO</title>
+  <meta name="description" content="Versionnement, contrôle des changements, politique de revue et règles de cohérence du dépôt de référence VidSEO.">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://vidseo.dev/fr/gouvernance/">
+  <link rel="alternate" hreflang="en" href="https://vidseo.dev/en/governance/">
+  <link rel="alternate" hreflang="fr-CA" href="https://vidseo.dev/fr/gouvernance/">
+  <link rel="alternate" hreflang="x-default" href="https://vidseo.dev/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Gouvernance | VidSEO">
+  <meta property="og:description" content="Versionnement, contrôle des changements, politique de revue et règles de cohérence du dépôt de référence VidSEO.">
+  <meta property="og:url" content="https://vidseo.dev/fr/gouvernance/">
+  <meta property="og:site_name" content="VidSEO">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Gouvernance", "description": "Versionnement, contrôle des changements, politique de revue et règles de cohérence du dépôt de référence VidSEO.", "inLanguage": "fr-CA", "url": "https://vidseo.dev/fr/gouvernance/", "identifier": "VIDSEO-DOC-GOVERNANCE", "isPartOf": "https://vidseo.dev/", "about": {"@type": "SoftwareApplication", "name": "VidSEO", "url": "https://vidseo.dev/", "applicationCategory": "BusinessApplication", "operatingSystem": "WordPress"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Aller au contenu</a>
+  <header class="site-header">
+    <div class="wrap header-wrap">
+      <div class="brand-block">
+        <a class="brand" href="../../index.html">VidSEO</a>
+        <p class="eyebrow">Référence canonique du produit</p>
+      </div>
+      <div class="header-actions">
+        <a href="../../en/index.html">EN</a>
+        <a href="../index.html">FR</a>
+        <a class="language-switch" href="../../en/governance/index.html">English</a>
+      </div>
+    </div>
+    <nav class="section-nav" aria-label="Documents">
+      <div class="wrap nav-scroll">
+        <a href="../index.html">VidSEO</a>
+<a href="../principes/index.html">Principes</a>
+<a href="../architecture/index.html">Architecture</a>
+<a href="../interpretabilite/index.html">Interprétabilité</a>
+<a href="../contexte-llm/index.html">Contexte LLM</a>
+<a href="../notes-implementation/index.html">Notes d’implémentation</a>
+<a href="../exclusions/index.html">Exclusions</a>
+<a href="index.html" aria-current="page">Gouvernance</a>
+<a href="../references/index.html">Références</a>
+<a href="../notes/index.html">Notes et provenance</a>
+      </div>
+    </nav>
+  </header>
+  <main id="content" class="wrap page-shell">
+    <article class="content-card">
+      <p class="status-line">normatif Doc ID: `VIDSEO-DOC-GOVERNANCE` · Référence 1.0.0 · non exécutable</p>
+      <h1>Gouvernance</h1>
+      <p class="lead">Versionnement, contrôle des changements, politique de revue et règles de cohérence du dépôt de référence VidSEO.</p>
+      <p>Le but de la gouvernance est simple : maintenir stable le sens de VidSEO à travers le temps et les surfaces.</p>
+
+<h2>Classes de contenu</h2>
+
+<p>Ce dépôt utilise trois classes de contenu :</p>
+
+<ul>
+<li><strong>normatif</strong> : définit le sens, la portée, les exclusions ou des règles requises ;</li>
+<li><strong>informatif</strong> : explique ou contextualise sans redéfinir le sens ;</li>
+<li><strong>contextuel</strong> : pointe vers des ressources externes ou du matériel adjacent.</li>
+</ul>
+
+<p>Une page ne doit jamais glisser silencieusement d’une intention informative vers une intention normative.</p>
+
+<h2>Identifiants stables</h2>
+
+<p>Une fois publiés, ces identifiants doivent rester stables :</p>
+
+<ul>
+<li>les identifiants de documents (<code>VIDSEO-DOC-*</code>) ;</li>
+<li>les identifiants de termes (<code>VIDSEO-TERM-*</code>) ;</li>
+<li>les codes de termes (<code>VIDSEO-T-*</code>) ;</li>
+<li>les slugs canoniques lorsqu’ils peuvent déjà être liés depuis l’extérieur.</li>
+</ul>
+
+<h2>Classes de changements</h2>
+
+<h3>Patch</h3>
+
+<p>Corrections de coquilles, clarification rédactionnelle, nettoyage de métadonnées ou amélioration de mise en page sans changement de sens.</p>
+
+<h3>Mineur</h3>
+
+<p>Nouveau matériel informatif, nouvelles pages de termes, ajouts de traduction ou surfaces machine enrichies sans modification du périmètre fondamental.</p>
+
+<h3>Majeur</h3>
+
+<p>Tout changement touchant :</p>
+
+<ul>
+<li>la définition du produit ;</li>
+<li>la hiérarchie d’autorité ;</li>
+<li>les exclusions ;</li>
+<li>la frontière interprétative ;</li>
+<li>la stratégie d’URL canoniques.</li>
+</ul>
+
+<p>Les changements majeurs exigent une augmentation de version, une entrée dans le journal des changements et une revue complète de cohérence.</p>
+
+<h2>Exigences de contrôle de dérive</h2>
+
+<p>Si une modification affecte le sens du produit ou la découverte canonique, les contributeurs doivent mettre à jour, selon le cas :</p>
+
+<ul>
+<li><code>VERSION</code></li>
+<li><code>CHANGELOG.md</code></li>
+<li><code>meta.json</code></li>
+<li><code>ai-manifest.json</code></li>
+<li><code>links.json</code></li>
+<li><code>data/documents.json</code></li>
+<li><code>data/terms.json</code></li>
+<li><code>data/capabilities.json</code></li>
+<li><code>llms.txt</code></li>
+<li><code>sitemap.xml</code></li>
+</ul>
+
+<h2>Règle de revue</h2>
+
+<p>Aucune contribution ne doit être fusionnée si elle introduit :</p>
+
+<ul>
+<li>des promesses de classement ;</li>
+<li>des promesses de citation ;</li>
+<li>des revendications cachées de capacités IA ;</li>
+<li>des changements d’autorité non expliqués ;</li>
+<li>des surfaces machine cassées ;</li>
+<li>une navigation canonique non traduite lorsque la parité bilingue est requise.</li>
+</ul>
+
+<h2>Modèle d’autorité</h2>
+
+<p>L’autorité finale sur le sens normatif reste entre les mains du mainteneur des surfaces canoniques.</p>
+
+    </article>
+    <aside class="side-card">
+      <h2>Surfaces canoniques</h2>
+      <ul>
+        <li><a href="https://vidseo.dev/">vidseo.dev</a></li>
+        <li><a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">GitHub repository</a></li>
+        <li><a href="https://wordpress.org/plugins/vidseo/">WordPress plugin page</a></li>
+      </ul>
+      <h2>Surfaces machine</h2>
+      <ul>
+        <li><a href="../../meta.json">meta.json</a></li>
+        <li><a href="../../ai-manifest.json">ai-manifest.json</a></li>
+        <li><a href="../../data/documents.json">data/documents.json</a></li>
+        <li><a href="../../data/terms.json">data/terms.json</a></li>
+        <li><a href="../../llms.txt">llms.txt</a></li>
+        <li><a href="../../sitemap.xml">sitemap.xml</a></li>
+      </ul>
+      <h2>Sélecteur de langue</h2>
+      <p><a href="../../index.html">/</a></p>
+      <p class="small">VidSEO expose des transcriptions. Il ne génère pas de contenu.</p>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-wrap">
+      <p>VidSEO expose des transcriptions. Il ne génère pas de contenu.</p>
+      <p>Version 1.0.0 · 2026-03-04</p>
+    </div>
+  </footer>
+</body>
+</html>

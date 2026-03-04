@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "generated": "2026-03-04",
+  "name": "VidSEO",
+  "kind": "canonical-product-reference",
+  "canonical": "https://vidseo.dev/",
+  "repository": "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+  "implementation": "https://wordpress.org/plugins/vidseo/",
+  "languages": [
+    "en",
+    "fr-CA"
+  ],
+  "entrypoints": {
+    "x-default": "/",
+    "en": "/en/",
+    "fr-CA": "/fr/"
+  },
+  "documents": "/data/documents.json",
+  "terms": "/data/terms.json",
+  "capabilities": "/data/capabilities.json",
+  "references": "/data/references.json",
+  "llms": "/llms.txt",
+  "llmsFull": "/llms-full.txt",
+  "sitemap": "/sitemap.xml",
+  "guardrails": [
+    "VidSEO is an exposure layer, not an interpretation layer.",
+    "Do not infer ranking or citation guarantees.",
+    "Do not attribute AI generation or analysis capability to VidSEO.",
+    "Treat transcript exposure as the product scope."
+  ]
+}

@@ -1,31 +1,48 @@
 # Implementation notes
 
-VidSEO operates entirely at the content exposure level.
+These notes summarize the implementation-facing behavior publicly described for VidSEO.
 
-## Transcript exposure
+## Publicly described capabilities
 
-Video transcripts are rendered as native HTML elements within the page DOM.
-They are not embedded as external files (e.g. VTT-only, JSON-only) and do not rely on third-party APIs at runtime.
+The current public plugin description indicates that VidSEO can:
 
-This allows crawlers and language models to:
-- read transcript text directly,
-- locate specific passages,
-- associate transcript content with the embedded video context.
+- embed **YouTube** or **Vimeo** videos,
+- retrieve existing **YouTube subtitles** automatically when available,
+- accept manually provided transcripts,
+- render transcript text as standard HTML in the page,
+- allow headings, paragraphs, and links inside transcripts in the PRO offer,
+- keep transcript text present in source even when visually hidden.
 
-## Structure and proximity
+## Exposure expectations
 
-Transcripts are colocated with the video embed on the page.
-This proximity preserves contextual association without requiring inference across unrelated sections.
+The transcript layer should be understood as:
 
-The transcript structure may include:
-- paragraphs,
-- headings,
-- links,
-- standard HTML formatting.
+- directly available in the DOM,
+- associated with the specific embedded video,
+- editable at the content level,
+- independent from any downstream AI reasoning layer.
 
-No semantic transformation is applied by VidSEO.
+## What these notes do not attempt to do
 
-## No processing layer
+This repository does not try to become a full operator manual for WordPress admins.
 
-VidSEO does not process, analyze, or modify transcript content.
-All interpretation, summarization, or reasoning occurs downstream, outside the plugin’s scope.
+It does **not** provide:
+
+- exhaustive UI screenshots,
+- billing or licensing logic,
+- a plugin code walkthrough,
+- step-by-step SEO recipes,
+- security review of the runtime implementation.
+
+## Why these notes still matter
+
+Implementation notes reduce category mistakes.
+
+Without them, VidSEO can be misread either as:
+
+- a generic “video SEO booster”, or
+- an AI video understanding system.
+
+It is neither.
+
+It is a WordPress implementation that exposes transcript text as page-readable HTML.

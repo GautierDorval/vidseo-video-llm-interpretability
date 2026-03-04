@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Principles | VidSEO</title>
+  <meta name="description" content="AI-first, SEO-first, mobile-first, and governance-first principles for VidSEO.">
+  <link rel="stylesheet" href="../../styles.css">
+  <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://vidseo.dev/en/principles/">
+  <link rel="alternate" hreflang="en" href="https://vidseo.dev/en/principles/">
+  <link rel="alternate" hreflang="fr-CA" href="https://vidseo.dev/fr/principes/">
+  <link rel="alternate" hreflang="x-default" href="https://vidseo.dev/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Principles | VidSEO">
+  <meta property="og:description" content="AI-first, SEO-first, mobile-first, and governance-first principles for VidSEO.">
+  <meta property="og:url" content="https://vidseo.dev/en/principles/">
+  <meta property="og:site_name" content="VidSEO">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Principles", "description": "AI-first, SEO-first, mobile-first, and governance-first principles for VidSEO.", "inLanguage": "en", "url": "https://vidseo.dev/en/principles/", "identifier": "VIDSEO-DOC-PRINCIPLES", "isPartOf": "https://vidseo.dev/", "about": {"@type": "SoftwareApplication", "name": "VidSEO", "url": "https://vidseo.dev/", "applicationCategory": "BusinessApplication", "operatingSystem": "WordPress"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-wrap">
+      <div class="brand-block">
+        <a class="brand" href="../../index.html">VidSEO</a>
+        <p class="eyebrow">Canonical product reference</p>
+      </div>
+      <div class="header-actions">
+        <a href="../index.html">EN</a>
+        <a href="../../fr/index.html">FR</a>
+        <a class="language-switch" href="../../fr/principes/index.html">Français</a>
+      </div>
+    </div>
+    <nav class="section-nav" aria-label="Documents">
+      <div class="wrap nav-scroll">
+        <a href="../index.html">VidSEO</a>
+<a href="index.html" aria-current="page">Principles</a>
+<a href="../architecture/index.html">Architecture</a>
+<a href="../interpretability/index.html">Interpretability</a>
+<a href="../llm-context/index.html">LLM context</a>
+<a href="../implementation-notes/index.html">Implementation notes</a>
+<a href="../non-goals/index.html">Non-goals</a>
+<a href="../governance/index.html">Governance</a>
+<a href="../references/index.html">References</a>
+<a href="../notes/index.html">Notes and provenance</a>
+      </div>
+    </nav>
+  </header>
+  <main id="content" class="wrap page-shell">
+    <article class="content-card">
+      <p class="status-line">normative Doc ID: `VIDSEO-DOC-PRINCIPLES` · Reference 1.0.0 · non-executable</p>
+      <h1>Principles</h1>
+      <p class="lead">AI-first, SEO-first, mobile-first, and governance-first principles for VidSEO.</p>
+      <p>VidSEO should be documented, interpreted, and presented under four non-negotiable principles.</p>
+
+<h2>1. AI-first</h2>
+
+<p>VidSEO exists to reduce interpretive guessing around video content.</p>
+
+<p>That means the repository must privilege:</p>
+
+<ul>
+<li>explicit text over implied meaning,</li>
+<li>deterministic machine-readable files over opaque prose,</li>
+<li>conservative claims over persuasive overstatement,</li>
+<li>stable URLs and stable identifiers over ad-hoc naming.</li>
+</ul>
+
+<p>Any edit that increases ambiguity about whether VidSEO <strong>generates</strong>, <strong>analyzes</strong>, or <strong>guarantees</strong> outcomes should be rejected.</p>
+
+<h2>2. SEO-first</h2>
+
+<p>VidSEO helps machines understand what a video says by exposing transcript text directly on the page.</p>
+
+<p>The repository must therefore favor:</p>
+
+<ul>
+<li>crawlable HTML,</li>
+<li>canonical metadata,</li>
+<li>stable document structure,</li>
+<li>descriptive titles and summaries,</li>
+<li>structured data and discovery files,</li>
+<li>low-friction access to key definitions.</li>
+</ul>
+
+<p>SEO-first here does <strong>not</strong> mean ranking promises. It means discoverability, clarity, and clean retrieval.</p>
+
+<h2>3. Mobile-first</h2>
+
+<p>The canonical site should remain readable and fast on small screens before it is optimized for wide screens.</p>
+
+<p>Required implications:</p>
+
+<ul>
+<li>single-column reading is the default,</li>
+<li>typography scales fluidly,</li>
+<li>navigation remains finger-friendly,</li>
+<li>pages do not depend on JavaScript for core reading,</li>
+<li>payload remains light.</li>
+</ul>
+
+<h2>4. Governance-first</h2>
+
+<p>The meaning of VidSEO must not drift across pages, manifests, registries, or future edits.</p>
+
+<p>Governance-first means:</p>
+
+<ul>
+<li>stable document IDs,</li>
+<li>stable term IDs,</li>
+<li>explicit content classes (<code>normative</code>, <code>informative</code>, <code>contextual</code>),</li>
+<li>versioning and changelog discipline,</li>
+<li>repeatable consistency checks,</li>
+<li>clear maintainer authority.</li>
+</ul>
+
+<h2>Editorial consequences</h2>
+
+<p>These four principles imply a writing rule:</p>
+
+<blockquote>
+  <p>Say exactly what VidSEO does, say exactly what it does not do, and leave no rhetorical space for downstream systems to imagine hidden capabilities.</p>
+</blockquote>
+
+<p>That rule applies equally to README content, HTML pages, JSON surfaces, issue templates, and future releases.</p>
+
+    </article>
+    <aside class="side-card">
+      <h2>Canonical surfaces</h2>
+      <ul>
+        <li><a href="https://vidseo.dev/">vidseo.dev</a></li>
+        <li><a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">GitHub repository</a></li>
+        <li><a href="https://wordpress.org/plugins/vidseo/">WordPress plugin page</a></li>
+      </ul>
+      <h2>Machine surfaces</h2>
+      <ul>
+        <li><a href="../../meta.json">meta.json</a></li>
+        <li><a href="../../ai-manifest.json">ai-manifest.json</a></li>
+        <li><a href="../../data/documents.json">data/documents.json</a></li>
+        <li><a href="../../data/terms.json">data/terms.json</a></li>
+        <li><a href="../../llms.txt">llms.txt</a></li>
+        <li><a href="../../sitemap.xml">sitemap.xml</a></li>
+      </ul>
+      <h2>Language selector</h2>
+      <p><a href="../../index.html">/</a></p>
+      <p class="small">VidSEO exposes transcripts. It does not generate content.</p>
+    </aside>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-wrap">
+      <p>VidSEO exposes transcripts. It does not generate content.</p>
+      <p>Version 1.0.0 · 2026-03-04</p>
+    </div>
+  </footer>
+</body>
+</html>

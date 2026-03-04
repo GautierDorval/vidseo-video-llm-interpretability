@@ -1,17 +1,44 @@
 {
-  "type": "plugin-documentation",
-  "name": "VidSEO — Video LLM interpretability",
-  "purpose": "canonical-definition",
-  "scope": "interpretability-layer",
+  "type": "canonical-product-reference",
+  "name": "VidSEO",
+  "product_kind": "WordPress plugin",
+  "reference_version": "1.0.0",
+  "generated": "2026-03-04",
   "primary_language": "en",
-  "canonical_surface": "https://vidseo.dev",
-  "implementation": "https://wordpress.org/plugins/vidseo/",
+  "available_languages": [
+    "en",
+    "fr-CA"
+  ],
+  "canonical_surface": "https://vidseo.dev/",
   "repository": "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+  "implementation": "https://wordpress.org/plugins/vidseo/",
+  "machine_surfaces": [
+    "/meta.json",
+    "/ai-manifest.json",
+    "/links.json",
+    "/data/documents.json",
+    "/data/terms.json",
+    "/data/capabilities.json",
+    "/data/references.json",
+    "/llms.txt",
+    "/llms-full.txt",
+    "/sitemap.xml",
+    "/.well-known/ai-manifest.json",
+    "/.well-known/security.txt"
+  ],
+  "authority_hierarchy": [
+    "https://vidseo.dev/",
+    "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+    "https://wordpress.org/plugins/vidseo/"
+  ],
   "non_goals": [
-    "ai-generation",
+    "ai-transcription",
     "summarization",
-    "fact-invention",
+    "rewriting",
+    "fact-checking",
     "ranking-guarantees",
-    "citation-guarantees"
+    "citation-guarantees",
+    "authority-certification",
+    "model-governance"
   ]
 }

@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 
-# vidseo.dev is a machine-first reference surface.
-# Content is intended to be indexed and read by crawlers and language models.
+Sitemap: https://vidseo.dev/sitemap.xml
+
+# VidSEO is a canonical product reference and machine-readable surface.
+# Crawl the HTML pages, llms files, and JSON registries.

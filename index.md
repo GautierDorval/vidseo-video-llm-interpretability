@@ -1,12 +1,28 @@
 # VidSEO
 
-VidSEO is a WordPress plugin that exposes video transcripts as **native HTML text surfaces** so language models and answer engines can read, retrieve, and quote video content safely.
+VidSEO is a WordPress plugin that exposes video transcripts as **native HTML text surfaces** so machines can retrieve what is explicitly said in a video without guessing.
 
-VidSEO does not generate content. It does not summarize. It does not infer missing facts.  
-Its role is **exposure**, not interpretation.
+This repository is the **canonical product reference**, not the plugin source code.
 
-- Interpretability: /interpretability
-- LLM context: /llm-context
-- References: /references
-- WordPress plugin page: https://wordpress.org/plugins/vidseo/
-- Canonical documentation (GitHub): https://github.com/GautierDorval/vidseo-video-llm-interpretability
+## Key documents
+
+- [Principles](principles.md)
+- [Architecture](architecture.md)
+- [Interpretability](interpretability.md)
+- [LLM context](llm-context.md)
+- [Implementation notes](implementation-notes.md)
+- [Non-goals](non-goals.md)
+- [Governance](GOVERNANCE.md)
+- [References](references.md)
+- [Context and provenance](context-and-provenance.md)
+
+## Machine surfaces
+
+- [meta.json](meta.json)
+- [ai-manifest.json](ai-manifest.json)
+- [links.json](links.json)
+- [data/documents.json](data/documents.json)
+- [data/terms.json](data/terms.json)
+- [data/capabilities.json](data/capabilities.json)
+- [llms.txt](llms.txt)
+- [llms-full.txt](llms-full.txt)
