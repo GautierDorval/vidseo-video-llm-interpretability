@@ -1,0 +1,5 @@
+Contact: https://github.com/GautierDorval
+Canonical: https://vidseo.dev/.well-known/security.txt
+Policy: https://github.com/GautierDorval/vidseo-video-llm-interpretability/blob/main/SECURITY.md
+Preferred-Languages: en, fr-CA
+Expires: 2027-03-04T00:00:00Z
