@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Docs | VidSEO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practical documentation for VidSEO installation and publishing workflow.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="canonical" href="https://vidseo.dev/docs/">
+  
+  <link rel="alternate" hreflang="en" href="https://vidseo.dev/docs/">
+  
+  <link rel="alternate" hreflang="fr-CA" href="https://vidseo.dev/fr/documentation/">
+  
+  <link rel="alternate" hreflang="x-default" href="https://vidseo.dev/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Docs | VidSEO">
+  <meta property="og:description" content="Practical documentation for VidSEO installation and publishing workflow.">
+  <meta property="og:url" content="https://vidseo.dev/docs/">
+  <meta property="og:image" content="https://vidseo.dev/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Docs | VidSEO">
+  <meta name="twitter:description" content="Practical documentation for VidSEO installation and publishing workflow.">
+  <meta name="twitter:image" content="https://vidseo.dev/social-card.svg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark">V</span>
+        <span class="brand-copy">VidSEO<small>Product-first docs</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16"></path>
+          <path d="M4 12h16"></path>
+          <path d="M4 17h16"></path>
+        </svg>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" data-nav data-open="false" aria-label="Primary">
+        
+        <a href="/" class="">Home</a>
+        
+        <a href="/features/" class="">Features</a>
+        
+        <a href="/how-it-works/" class="">How it works</a>
+        
+        <a href="/use-cases/" class="">Use cases</a>
+        
+        <a href="/docs/" class="active">Docs</a>
+        
+        <a href="/faq/" class="">FAQ</a>
+        
+        <div class="nav-actions">
+          <a class="button secondary" href="/fr/documentation/">Français</a>
+          <a class="button primary" href="https://wordpress.org/plugins/vidseo/">WordPress plugin</a>
+        </div>
+      </nav>
+
+      <div class="desktop-actions">
+        <a class="lang-link" href="/fr/documentation/">Français</a>
+        <a class="button small primary" href="https://wordpress.org/plugins/vidseo/">WordPress plugin</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="site-main">
+    <div class="container page-shell">
+      <section class="content-card">
+        <div class="hero-meta">
+          <span class="pill">Product page</span>
+          <span class="pill">Version v2.0.0</span>
+          <span class="pill">Updated 2026-03-04</span>
+        </div>
+        <h1 id="documentation">Documentation</h1>
+
+<p>This page summarizes the public workflow and practical boundaries of VidSEO.</p>
+
+<h2 id="installation-flow">Installation flow</h2>
+
+<ol>
+<li>Install VidSEO from WordPress.org or upload it manually.</li>
+<li>Activate the plugin.</li>
+<li>Open the VidSEO menu in WordPress admin.</li>
+<li>Add a new video and its transcript.</li>
+<li>Insert the shortcode into a post, page, or product.</li>
+</ol>
+
+<h2 id="publishing-workflow">Publishing workflow</h2>
+
+<h3 id="create-a-video-entry">Create a video entry</h3>
+
+<p>Start with the video URL and choose the platform.</p>
+
+<h3 id="add-transcript-content">Add transcript content</h3>
+
+<p>Use one of two paths:</p>
+
+<ul>
+<li>retrieve existing YouTube subtitles when available,</li>
+<li>add transcript text manually.</li>
+</ul>
+
+<h3 id="publish-the-output">Publish the output</h3>
+
+<p>Insert the shortcode where you want the video and transcript to appear.</p>
+
+<h2 id="best-use-guidance">Best-use guidance</h2>
+
+<ul>
+<li>keep transcript text close to the video</li>
+<li>preserve clear paragraph structure</li>
+<li>avoid bloating the transcript with unrelated copy</li>
+<li>edit for accuracy before publication</li>
+<li>treat transcript text as content, not as decoration</li>
+</ul>
+
+<h2 id="current-live-implementation-reference">Current live implementation reference</h2>
+
+<p>For the current plugin description, version line, install count, compatibility, changelog, and support, use the official WordPress page:</p>
+
+<p>https://wordpress.org/plugins/vidseo/</p>
+
+      </section>
+
+      <aside class="page-aside">
+        <div class="aside-card">
+          <h2>Product links</h2>
+          <div class="link-stack">
+            <a href="https://wordpress.org/plugins/vidseo/">WordPress plugin</a>
+            <a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">GitHub repository</a>
+            <a href="/docs/">Docs</a>
+            <a href="/faq/">FAQ</a>
+          </div>
+        </div>
+
+        <div class="aside-card">
+          <h2>Machine-readable</h2>
+          <div class="link-stack">
+            <a href="/meta.json">meta.json</a>
+            <a href="/ai-manifest.json">ai-manifest.json</a>
+            <a href="/links.json">links.json</a>
+            <a href="/llms.txt">llms.txt</a>
+            <a href="/llms-full.txt">llms-full.txt</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h2>Product</h2>
+        <ul>
+          
+          <li><a href="/">Home</a></li>
+          
+          <li><a href="/features/">Features</a></li>
+          
+          <li><a href="/how-it-works/">How it works</a></li>
+          
+          <li><a href="/use-cases/">Use cases</a></li>
+          
+          <li><a href="/docs/">Docs</a></li>
+          
+          <li><a href="/faq/">FAQ</a></li>
+          
+        </ul>
+      </section>
+      <section>
+        <h2>Technical</h2>
+        <ul>
+          
+          <li><a href="/technical/">Technical notes</a></li>
+          
+          <li><a href="/references/">References</a></li>
+          
+          <li><a href="https://wordpress.org/plugins/vidseo/">Plugin page</a></li>
+          
+          <li><a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">GitHub repository</a></li>
+          
+        </ul>
+      </section>
+      <section>
+        <h2>Machine-readable</h2>
+        <ul>
+          
+          <li><a href="/meta.json">meta.json</a></li>
+          
+          <li><a href="/ai-manifest.json">ai-manifest.json</a></li>
+          
+          <li><a href="/links.json">links.json</a></li>
+          
+          <li><a href="/llms.txt">llms.txt</a></li>
+          
+          <li><a href="/llms-full.txt">llms-full.txt</a></li>
+          
+        </ul>
+        <p>Machine files support discovery. They are not the site&#39;s primary topic.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

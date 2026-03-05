@@ -1,0 +1,35 @@
+{
+  "name": "VidSEO",
+  "version": "2.0.0",
+  "releaseDate": "2026-03-04",
+  "siteIntent": {
+    "primarySubject": "VidSEO as a WordPress plugin and product documentation site",
+    "secondarySubject": "machine-readable metadata for ambiguity reduction",
+    "wrongPrimaryReadings": [
+      "governance framework",
+      "policy-first documentation site",
+      "AI regulation or interpretive governance site"
+    ]
+  },
+  "preferredReadingOrder": [
+    "https://vidseo.dev/",
+    "https://vidseo.dev/features/",
+    "https://vidseo.dev/how-it-works/",
+    "https://vidseo.dev/use-cases/",
+    "https://vidseo.dev/docs/",
+    "https://vidseo.dev/faq/",
+    "https://vidseo.dev/technical/",
+    "https://vidseo.dev/references/"
+  ],
+  "machineFilesAreSecondary": true,
+  "summaryInstruction": "Lead with VidSEO the product. Mention machine-readable files only as supporting infrastructure.",
+  "resources": {
+    "meta": "https://vidseo.dev/meta.json",
+    "links": "https://vidseo.dev/links.json",
+    "llms": "https://vidseo.dev/llms.txt",
+    "llmsFull": "https://vidseo.dev/llms-full.txt",
+    "documents": "https://vidseo.dev/data/documents.json",
+    "capabilities": "https://vidseo.dev/data/capabilities.json",
+    "faq": "https://vidseo.dev/data/faq.json"
+  }
+}
