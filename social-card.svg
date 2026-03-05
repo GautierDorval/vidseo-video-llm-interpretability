@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
-  <rect width="1200" height="630" fill="#0b1020"/>
-  <rect x="48" y="48" width="1104" height="534" rx="32" fill="#111a31" stroke="#2b3b60" stroke-width="2"/>
-  <text x="100" y="180" fill="#edf3ff" font-family="Inter,Arial,sans-serif" font-size="76" font-weight="800">VidSEO</text>
-  <text x="100" y="250" fill="#bfe0ff" font-family="Inter,Arial,sans-serif" font-size="34">Product-first video transcript site for WordPress</text>
-  <text x="100" y="330" fill="#b0bdd6" font-family="Inter,Arial,sans-serif" font-size="30">Native HTML transcript exposure • AI-friendly • SEO-aware • mobile-first</text>
-  <circle cx="1020" cy="170" r="44" fill="#8b5cf6"/>
-  <path d="M900 200h62l55 144 55-144h62L1034 458h-46L900 200Z" fill="#60a5fa"/>
-</svg>
