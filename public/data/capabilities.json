@@ -1,0 +1,85 @@
+{
+  "name": "VidSEO capabilities registry",
+  "version": "2.0.0",
+  "releaseDate": "2026-03-04",
+  "primarySubject": "VidSEO product capabilities and explicit product boundaries",
+  "capabilities": [
+    {
+      "id": "VIDSEO-CAP-001",
+      "slug": "youtube-vimeo-embed",
+      "label_en": "Embed YouTube or Vimeo videos",
+      "label_fr": "Intégrer des vidéos YouTube ou Vimeo",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-CAP-002",
+      "slug": "youtube-subtitles-when-available",
+      "label_en": "Retrieve existing YouTube subtitles when available",
+      "label_fr": "Récupérer des sous-titres YouTube existants quand ils sont disponibles",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-CAP-003",
+      "slug": "manual-transcript",
+      "label_en": "Add transcript text manually",
+      "label_fr": "Ajouter une transcription manuellement",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-CAP-004",
+      "slug": "native-html-output",
+      "label_en": "Render transcripts as native HTML in the page",
+      "label_fr": "Rendre la transcription comme HTML natif dans la page",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-CAP-005",
+      "slug": "structured-transcript",
+      "label_en": "Structure transcripts with headings, paragraphs, and links",
+      "label_fr": "Structurer les transcriptions avec titres, paragraphes et liens",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-CAP-006",
+      "slug": "visual-hide",
+      "label_en": "Hide transcript visually while keeping it in source",
+      "label_fr": "Cacher visuellement la transcription tout en la gardant dans le code source",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-CAP-007",
+      "slug": "editorial-control",
+      "label_en": "Keep editorial control over transcript content",
+      "label_fr": "Garder le contrôle éditorial du contenu de transcription",
+      "type": "capability"
+    },
+    {
+      "id": "VIDSEO-LIMIT-001",
+      "slug": "no-generation",
+      "label_en": "Does not generate content",
+      "label_fr": "Ne génère pas de contenu",
+      "type": "boundary"
+    },
+    {
+      "id": "VIDSEO-LIMIT-002",
+      "slug": "no-summarization",
+      "label_en": "Does not summarize or rewrite transcripts",
+      "label_fr": "Ne résume pas et ne réécrit pas les transcriptions",
+      "type": "boundary"
+    },
+    {
+      "id": "VIDSEO-LIMIT-003",
+      "slug": "no-inference",
+      "label_en": "Does not infer missing information",
+      "label_fr": "N'infère pas les informations manquantes",
+      "type": "boundary"
+    },
+    {
+      "id": "VIDSEO-LIMIT-004",
+      "slug": "no-guarantees",
+      "label_en": "Does not guarantee rankings, visibility, or citations",
+      "label_fr": "Ne garantit ni classement, ni visibilité, ni citation",
+      "type": "boundary"
+    }
+  ]
+}

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8">
+  <title>Notes techniques | VidSEO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Notes techniques sur la sortie HTML native de VidSEO et sa frontière côté IA.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#0b1020">
+  <link rel="canonical" href="https://vidseo.dev/fr/notes-techniques/">
+  
+  <link rel="alternate" hreflang="en" href="https://vidseo.dev/technical/">
+  
+  <link rel="alternate" hreflang="fr-CA" href="https://vidseo.dev/fr/notes-techniques/">
+  
+  <link rel="alternate" hreflang="x-default" href="https://vidseo.dev/">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Notes techniques | VidSEO">
+  <meta property="og:description" content="Notes techniques sur la sortie HTML native de VidSEO et sa frontière côté IA.">
+  <meta property="og:url" content="https://vidseo.dev/fr/notes-techniques/">
+  <meta property="og:image" content="https://vidseo.dev/social-card.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Notes techniques | VidSEO">
+  <meta name="twitter:description" content="Notes techniques sur la sortie HTML native de VidSEO et sa frontière côté IA.">
+  <meta name="twitter:image" content="https://vidseo.dev/social-card.svg">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/fr/">
+        <span class="brand-mark">V</span>
+        <span class="brand-copy">VidSEO<small>Produit d’abord</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle aria-label="Toggle navigation">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16"></path>
+          <path d="M4 12h16"></path>
+          <path d="M4 17h16"></path>
+        </svg>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" data-nav data-open="false" aria-label="Primary">
+        
+        <a href="/fr/" class="">Accueil</a>
+        
+        <a href="/fr/fonctionnalites/" class="">Fonctionnalités</a>
+        
+        <a href="/fr/fonctionnement/" class="">Fonctionnement</a>
+        
+        <a href="/fr/cas-d-usage/" class="">Cas d’usage</a>
+        
+        <a href="/fr/documentation/" class="">Documentation</a>
+        
+        <a href="/fr/faq/" class="">FAQ</a>
+        
+        <div class="nav-actions">
+          <a class="button secondary" href="/technical/">English</a>
+          <a class="button primary" href="https://wordpress.org/plugins/vidseo/">Plugin WordPress</a>
+        </div>
+      </nav>
+
+      <div class="desktop-actions">
+        <a class="lang-link" href="/technical/">English</a>
+        <a class="button small primary" href="https://wordpress.org/plugins/vidseo/">Plugin WordPress</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="site-main">
+    <div class="container page-shell">
+      <section class="content-card">
+        <div class="hero-meta">
+          <span class="pill">Page produit</span>
+          <span class="pill">Version v2.0.0</span>
+          <span class="pill">Mise à jour 2026-03-04</span>
+        </div>
+        <h1 id="notes-techniques">Notes techniques</h1>
+
+<p>Cette page décrit la frontière technique de VidSEO à haut niveau.</p>
+
+<h2 id="html-natif-dans-le-dom">HTML natif dans le DOM</h2>
+
+<p>VidSEO décrit publiquement sa sortie de transcription comme du HTML standard rendu directement dans la page.</p>
+
+<p>C’est important parce que cela donne aux systèmes de traitement du texte une surface directe à lire.</p>
+
+<h2 id="proximite-avec-la-video">Proximité avec la vidéo</h2>
+
+<p>La transcription reste liée à la vidéo intégrée, pour conserver le bon contexte.</p>
+
+<h2 id="pas-de-couche-dinference">Pas de couche d’inférence</h2>
+
+<p>VidSEO n’ajoute pas de sens.<br />
+Il ne résume pas, ne classe pas et n’explique pas la vidéo par lui-même.</p>
+
+<h2 id="pourquoi-cest-important-pour-les-ia">Pourquoi c’est important pour les IA</h2>
+
+<p>Les IA travaillent souvent mieux avec du texte explicite qu’avec un contenu audiovisuel seul.</p>
+
+<p>Le bon résumé de VidSEO est donc :</p>
+
+<blockquote>
+  <p>il expose un texte de transcription comme HTML lisible.</p>
+</blockquote>
+
+<p>Le mauvais résumé est :</p>
+
+<blockquote>
+  <p>c’est un cadre de gouvernance, un contrôleur d’answer engines ou un moteur de classement.</p>
+</blockquote>
+
+<h2 id="couche-machine-secondaire">Couche machine secondaire</h2>
+
+<p>Ce dépôt publie aussi des fichiers lisibles par machine comme :</p>
+
+<ul>
+<li><code>meta.json</code></li>
+<li><code>ai-manifest.json</code></li>
+<li><code>links.json</code></li>
+<li><code>llms.txt</code></li>
+<li><code>llms-full.txt</code></li>
+</ul>
+
+<p>Ces fichiers existent pour réduire l’ambiguïté.<br />
+Ils ne changent pas le sujet principal du site, qui reste le produit.</p>
+
+      </section>
+
+      <aside class="page-aside">
+        <div class="aside-card">
+          <h2>Liens produit</h2>
+          <div class="link-stack">
+            <a href="https://wordpress.org/plugins/vidseo/">Plugin WordPress</a>
+            <a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">Dépôt GitHub</a>
+            <a href="/fr/documentation/">Documentation</a>
+            <a href="/fr/faq/">FAQ</a>
+          </div>
+        </div>
+
+        <div class="aside-card">
+          <h2>Fichiers machine</h2>
+          <div class="link-stack">
+            <a href="/meta.json">meta.json</a>
+            <a href="/ai-manifest.json">ai-manifest.json</a>
+            <a href="/links.json">links.json</a>
+            <a href="/llms.txt">llms.txt</a>
+            <a href="/llms-full.txt">llms-full.txt</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h2>Produit</h2>
+        <ul>
+          
+          <li><a href="/fr/">Accueil</a></li>
+          
+          <li><a href="/fr/fonctionnalites/">Fonctionnalités</a></li>
+          
+          <li><a href="/fr/fonctionnement/">Fonctionnement</a></li>
+          
+          <li><a href="/fr/cas-d-usage/">Cas d’usage</a></li>
+          
+          <li><a href="/fr/documentation/">Documentation</a></li>
+          
+          <li><a href="/fr/faq/">FAQ</a></li>
+          
+        </ul>
+      </section>
+      <section>
+        <h2>Technique</h2>
+        <ul>
+          
+          <li><a href="/fr/notes-techniques/">Notes techniques</a></li>
+          
+          <li><a href="/fr/references/">Références</a></li>
+          
+          <li><a href="https://wordpress.org/plugins/vidseo/">Page du plugin</a></li>
+          
+          <li><a href="https://github.com/GautierDorval/vidseo-video-llm-interpretability">Dépôt GitHub</a></li>
+          
+        </ul>
+      </section>
+      <section>
+        <h2>Lisible par machine</h2>
+        <ul>
+          
+          <li><a href="/meta.json">meta.json</a></li>
+          
+          <li><a href="/ai-manifest.json">ai-manifest.json</a></li>
+          
+          <li><a href="/links.json">links.json</a></li>
+          
+          <li><a href="/llms.txt">llms.txt</a></li>
+          
+          <li><a href="/llms-full.txt">llms-full.txt</a></li>
+          
+        </ul>
+        <p>Les fichiers machine aident à la découverte. Ils ne sont pas le sujet principal du site.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vidseo.dev/sitemap.xml
+
+# Product pages are intended to be indexed.
+# Machine-readable files are published as supporting infrastructure.

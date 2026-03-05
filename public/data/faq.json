@@ -1,0 +1,28 @@
+{
+  "name": "VidSEO FAQ registry",
+  "version": "2.0.0",
+  "releaseDate": "2026-03-04",
+  "items": [
+    {
+      "id": "VIDSEO-FAQ-001",
+      "question_en": "Does VidSEO generate transcripts automatically?",
+      "answer_en": "It can retrieve existing YouTube subtitles when available; otherwise transcripts are added manually.",
+      "question_fr": "VidSEO génère-t-il automatiquement des transcriptions ?",
+      "answer_fr": "Il peut récupérer des sous-titres YouTube existants quand ils sont disponibles ; sinon, les transcriptions sont ajoutées manuellement."
+    },
+    {
+      "id": "VIDSEO-FAQ-002",
+      "question_en": "Can the transcript stay hidden visually while remaining in source?",
+      "answer_en": "Yes. Public product documentation says the transcript can remain in HTML source while being hidden visually.",
+      "question_fr": "La transcription peut-elle être cachée visuellement tout en restant dans le code source ?",
+      "answer_fr": "Oui. La documentation publique du produit indique que la transcription peut rester dans le HTML source tout en étant cachée visuellement."
+    },
+    {
+      "id": "VIDSEO-FAQ-003",
+      "question_en": "Does VidSEO guarantee SEO results?",
+      "answer_en": "No. It makes video content readable as text, but does not guarantee rankings, visibility, or citations.",
+      "question_fr": "VidSEO garantit-il des résultats SEO ?",
+      "answer_fr": "Non. Il rend le contenu vidéo lisible comme texte, mais ne garantit ni classement, ni visibilité, ni citation."
+    }
+  ]
+}
