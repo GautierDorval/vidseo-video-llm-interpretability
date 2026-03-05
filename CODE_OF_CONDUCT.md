@@ -1,21 +1,19 @@
 # Code of conduct
 
-This repository is small, but its standards are strict.
+This repository is intended to stay useful, precise, and low-noise.
 
 ## Expected behavior
 
-- Separate evidence from inference.
-- Be precise about product scope.
-- Keep discussion factual and calm.
-- Prefer conservative wording over persuasive overreach.
-- Respect bilingual parity when editing canonical public pages.
+- Be respectful and direct.
+- Keep comments relevant to the product or the repository.
+- Prefer evidence over hype.
+- Narrow claims when unsure.
 
 ## Unacceptable behavior
 
-- Manipulative ranking claims
-- Unsupported AI capability claims
-- Personal attacks
-- Spam, hostility, or repeated bad-faith edits
-- Deliberate drift between human and machine surfaces
-
-The maintainer may close, reject, or revert contributions that undermine interpretive clarity or repository governance.
+- harassment
+- abuse
+- spam
+- misleading claims
+- security-sensitive oversharing
+- turning product pages into unrelated policy or ideology debates

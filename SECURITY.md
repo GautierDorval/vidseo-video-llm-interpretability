@@ -1,26 +1,23 @@
-# Security policy
+# Security
 
-This repository primarily contains documentation, static HTML, and machine-readable reference files.
+## Scope
 
-## In scope for this repository
+This repository contains static product documentation and machine-readable support files.
 
-Report issues such as:
+## Reportable issues
 
-- broken or malformed machine surfaces,
-- injected third-party scripts or unwanted executable code,
-- misleading canonical redirects,
-- corrupted metadata that changes product meaning,
-- compromised files in `.well-known/`, `llms.txt`, or JSON registries.
+- malicious or broken redirects
+- tampered machine-readable files
+- dangerous metadata changes
+- misleading deployment changes
+- content that could materially misrepresent the product
 
-## Out of scope for this repository
+## Boundary
 
-This repository is **not** the runtime plugin source code.
+This repository is **not** the plugin runtime source code repository.
 
-If you identify a vulnerability in the actual WordPress plugin implementation, do not assume this repository is the correct disclosure channel.
+If the issue is about WordPress runtime behavior or plugin code execution, use the official plugin channels first.
 
-## Contact path
+## Disclosure
 
-- Public maintainer profile: `https://github.com/GautierDorval`
-- Public repository: `https://github.com/GautierDorval/vidseo-video-llm-interpretability`
-
-If no private channel is available, open a minimal public issue requesting a security contact **without** posting exploit details.
+Do not publish exploit details unnecessarily in a public issue.

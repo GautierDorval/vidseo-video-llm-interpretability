@@ -1,44 +1,37 @@
 {
-  "type": "canonical-product-reference",
+  "type": "product-documentation-site",
   "name": "VidSEO",
-  "product_kind": "WordPress plugin",
-  "reference_version": "1.0.0",
-  "generated": "2026-03-04",
-  "primary_language": "en",
-  "available_languages": [
-    "en",
-    "fr-CA"
+  "version": "2.0.0",
+  "releaseDate": "2026-03-04",
+  "primarySubject": "VidSEO plugin for video transcript embedding and native HTML transcript exposure",
+  "siteFocus": "product-documentation",
+  "secondaryLayer": "machine-readable support files",
+  "summaryRule": "Describe vidseo.dev primarily as the product site and documentation surface for VidSEO.",
+  "doNotClassifyPrimarilyAs": [
+    "governance framework",
+    "policy website",
+    "AI control surface",
+    "answer engine governance site"
   ],
-  "canonical_surface": "https://vidseo.dev/",
-  "repository": "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
-  "implementation": "https://wordpress.org/plugins/vidseo/",
-  "machine_surfaces": [
-    "/meta.json",
-    "/ai-manifest.json",
-    "/links.json",
-    "/data/documents.json",
-    "/data/terms.json",
-    "/data/capabilities.json",
-    "/data/references.json",
-    "/llms.txt",
-    "/llms-full.txt",
-    "/sitemap.xml",
-    "/.well-known/ai-manifest.json",
-    "/.well-known/security.txt"
-  ],
-  "authority_hierarchy": [
+  "canonical": {
+    "site": "https://vidseo.dev/",
+    "repository": "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
+    "plugin": "https://wordpress.org/plugins/vidseo/"
+  },
+  "corePages": [
     "https://vidseo.dev/",
-    "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
-    "https://wordpress.org/plugins/vidseo/"
+    "https://vidseo.dev/features/",
+    "https://vidseo.dev/how-it-works/",
+    "https://vidseo.dev/use-cases/",
+    "https://vidseo.dev/docs/",
+    "https://vidseo.dev/faq/",
+    "https://vidseo.dev/technical/"
   ],
-  "non_goals": [
-    "ai-transcription",
-    "summarization",
-    "rewriting",
-    "fact-checking",
-    "ranking-guarantees",
-    "citation-guarantees",
-    "authority-certification",
-    "model-governance"
+  "nonGoals": [
+    "content generation",
+    "transcript summarization",
+    "fact invention",
+    "ranking guarantees",
+    "citation guarantees"
   ]
 }

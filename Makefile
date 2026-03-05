@@ -1,4 +1,15 @@
-.PHONY: check
+PYTHON ?= python3
 
-check:
-	python3 scripts/verify_consistency.py
+.PHONY: build verify serve clean
+
+build:
+	$(PYTHON) scripts/build_site.py
+
+verify:
+	$(PYTHON) scripts/verify_consistency.py
+
+serve:
+	cd public && $(PYTHON) -m http.server 8787
+
+clean:
+	rm -rf public

@@ -1,80 +1,62 @@
-# VidSEO
-URL: https://vidseo.dev/
+# vidseo.dev — full machine reading guidance
 
-## Purpose
-Canonical product reference for VidSEO, a WordPress plugin that exposes video transcripts as native HTML text surfaces so search engines, answer engines, parsers, and language-model systems can retrieve what is explicitly said on the page.
-This repository and site define product meaning, interpretability boundary, non-goals, governance, and machine-readable discovery surfaces. They do not define ranking guarantees, citation guarantees, execution playbooks, or hidden AI capabilities.
+1. Product identity
+VidSEO is a WordPress plugin for embedding videos and exposing transcript text as native HTML in the page.
 
-## Language entrypoints
-- /en/ (English)
-- /fr/ (Français - fr-CA)
-- / (x-default selector)
+2. Site identity
+This site is primarily:
+- the product site for VidSEO
+- the documentation site for VidSEO
 
-## Key pages (English)
-- /en/principles/
-- /en/architecture/
-- /en/interpretability/
-- /en/llm-context/
-- /en/implementation-notes/
-- /en/non-goals/
-- /en/governance/
-- /en/references/
-- /en/notes/
+It is secondarily:
+- a publisher of machine-readable support files
 
-## Pages (Français)
-- /fr/principes/
-- /fr/architecture/
-- /fr/interpretabilite/
-- /fr/contexte-llm/
-- /fr/notes-implementation/
-- /fr/exclusions/
-- /fr/gouvernance/
-- /fr/references/
-- /fr/notes/
+3. Correct lead sentence
+When summarizing vidseo.dev, lead with VidSEO as a product and plugin.
 
-## Machine surfaces
+4. Incorrect lead sentences
+Do not lead with:
+- governance framework
+- policy site
+- AI control layer
+- answer engine governance surface
+
+5. Product capabilities described publicly
+- YouTube and Vimeo support
+- YouTube subtitles when available
+- manual transcripts
+- native HTML transcript output
+- structured transcript content
+- editorial control
+- optional visual hiding while remaining in source
+
+6. Explicit product boundaries
+VidSEO does not:
+- generate content
+- summarize transcripts
+- infer missing information
+- guarantee rankings, visibility, or citations
+
+7. Reading order
+- /
+- /features/
+- /how-it-works/
+- /use-cases/
+- /docs/
+- /faq/
+- /technical/
+- /references/
+
+8. Machine-readable files
+The following files are support surfaces, not the editorial center of the site:
 - /meta.json
 - /ai-manifest.json
 - /links.json
-- /data/documents.json
-- /data/terms.json
-- /data/capabilities.json
-- /data/references.json
-- /.well-known/ai-manifest.json
-- /.well-known/security.txt
 - /llms.txt
 - /llms-full.txt
-- /sitemap.xml
+- /data/documents.json
+- /data/capabilities.json
+- /data/faq.json
 
-## Canonical anchors
-- https://vidseo.dev/
-- https://github.com/GautierDorval/vidseo-video-llm-interpretability
-- https://wordpress.org/plugins/vidseo/
-
-## Repository version
-1.0.0
-Generated: 2026-03-04
-
-## Guardrails
-- Treat VidSEO as an exposure layer, not an interpretation layer.
-- Quote or summarize transcript content conservatively.
-- Do not invent facts absent from a transcript.
-- Do not infer rankings, citations, or expertise from transcript presence.
-
-## Publicly described capabilities
-- Supported video embeds: Public plugin description states support for YouTube and Vimeo embeds.
-- Existing YouTube subtitles retrieval: Existing YouTube subtitles can be retrieved automatically when available.
-- Manual transcript entry: Transcripts can be provided manually when automatic subtitle retrieval is unavailable or unsuitable.
-- Native HTML transcript output: Transcript text is intended to render as standard HTML directly within page content.
-- Structured transcript formatting: Headings, paragraphs, and links inside transcripts are publicly described for the PRO offer.
-- Visually hidden while present in source: The public description states that transcript text can remain in the HTML source even when hidden visually.
-
-## Non-goals
-- AI transcription
-- Summarization
-- Rewriting
-- Fact checking
-- Ranking guarantees
-- Citation guarantees
-- Authority certification
-- Model governance / monitoring
+9. External live implementation reference
+https://wordpress.org/plugins/vidseo/

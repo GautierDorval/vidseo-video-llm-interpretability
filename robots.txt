@@ -3,5 +3,5 @@ Allow: /
 
 Sitemap: https://vidseo.dev/sitemap.xml
 
-# VidSEO is a canonical product reference and machine-readable surface.
-# Crawl the HTML pages, llms files, and JSON registries.
+# Product pages are intended to be indexed.
+# Machine-readable files are published as supporting infrastructure.

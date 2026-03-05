@@ -1,20 +1,39 @@
 {
-  "version": "1.0.0",
-  "generated": "2026-03-04",
+  "name": "VidSEO links",
+  "version": "2.0.0",
+  "releaseDate": "2026-03-04",
+  "siteFocus": "product-documentation",
   "canonical": {
-    "web": "https://vidseo.dev/",
+    "site": "https://vidseo.dev/",
     "repository": "https://github.com/GautierDorval/vidseo-video-llm-interpretability",
-    "implementation": "https://wordpress.org/plugins/vidseo/"
+    "plugin": "https://wordpress.org/plugins/vidseo/"
   },
   "entrypoints": {
-    "selector": "/",
-    "home_en": "/en/",
-    "home_fr": "/fr/",
-    "llms": "/llms.txt",
-    "llms_full": "/llms-full.txt",
-    "documents": "/data/documents.json",
-    "terms": "/data/terms.json",
-    "capabilities": "/data/capabilities.json",
-    "references": "/data/references.json"
+    "home": "https://vidseo.dev/",
+    "features": "https://vidseo.dev/features/",
+    "howItWorks": "https://vidseo.dev/how-it-works/",
+    "useCases": "https://vidseo.dev/use-cases/",
+    "docs": "https://vidseo.dev/docs/",
+    "faq": "https://vidseo.dev/faq/",
+    "technical": "https://vidseo.dev/technical/",
+    "references": "https://vidseo.dev/references/",
+    "homeFr": "https://vidseo.dev/fr/",
+    "featuresFr": "https://vidseo.dev/fr/fonctionnalites/",
+    "howItWorksFr": "https://vidseo.dev/fr/fonctionnement/",
+    "useCasesFr": "https://vidseo.dev/fr/cas-d-usage/",
+    "docsFr": "https://vidseo.dev/fr/documentation/",
+    "faqFr": "https://vidseo.dev/fr/faq/",
+    "technicalFr": "https://vidseo.dev/fr/notes-techniques/",
+    "referencesFr": "https://vidseo.dev/fr/references/"
+  },
+  "machineReadable": {
+    "meta": "https://vidseo.dev/meta.json",
+    "aiManifest": "https://vidseo.dev/ai-manifest.json",
+    "llms": "https://vidseo.dev/llms.txt",
+    "llmsFull": "https://vidseo.dev/llms-full.txt",
+    "humans": "https://vidseo.dev/humans.txt",
+    "documents": "https://vidseo.dev/data/documents.json",
+    "capabilities": "https://vidseo.dev/data/capabilities.json",
+    "faq": "https://vidseo.dev/data/faq.json"
   }
 }

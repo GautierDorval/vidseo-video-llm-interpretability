@@ -1,24 +1,22 @@
 # Support
 
-Use the right surface for the right question.
+## Product and documentation
 
-## Product definition, scope, or canonical meaning
+Use the repository for:
 
-Use this repository and `vidseo.dev`:
+- documentation corrections
+- translation drift
+- layout issues
+- metadata issues
+- broken links
+- static site bugs
 
-- `https://github.com/GautierDorval/vidseo-video-llm-interpretability`
-- `https://vidseo.dev/`
+## Plugin runtime and current distribution details
 
-## Installation, usage, or WordPress-facing plugin questions
+Use the official WordPress plugin page and support forum:
 
-Use the WordPress plugin page:
+- Plugin page: https://wordpress.org/plugins/vidseo/
 
-- `https://wordpress.org/plugins/vidseo/`
-
-## Broken machine surfaces or documentation drift
-
-Open a GitHub issue in this repository.
-
-## Security matters
+## Security
 
 See `SECURITY.md`.
