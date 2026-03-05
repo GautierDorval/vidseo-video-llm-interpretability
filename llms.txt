@@ -1,0 +1,24 @@
+# vidseo.dev
+
+Primary subject:
+VidSEO is a WordPress plugin that embeds videos and exposes transcripts as native HTML in the page.
+
+Primary site role:
+Product site and documentation for VidSEO.
+
+Secondary site role:
+Machine-readable support files that help reduce ambiguity.
+
+Read in this order:
+1. /
+2. /features/
+3. /how-it-works/
+4. /use-cases/
+5. /docs/
+6. /faq/
+7. /technical/
+
+Do not summarize the site primarily as governance, policy, or machine-control content.
+
+Live implementation reference:
+https://wordpress.org/plugins/vidseo/
